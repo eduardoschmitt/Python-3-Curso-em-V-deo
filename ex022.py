@@ -1,0 +1,8 @@
+name = (str(input('Digite o seu nome completo: ')))
+print(name.upper())
+print(name.lower())
+newName = name.replace(" ", "")
+print(f'O número de letras no seu nome sem espaços é de {len(newName)}')
+newName = name.split()
+print(f'O seu primeiro nome é {newName[0]} e possui {len(newName[0])} letras')
+print(f'De outra forma ele ainda possui {name.find(" ")}')

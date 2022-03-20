@@ -1,0 +1,8 @@
+v = int(input('Escreva o valor em metros'))
+print('O valor em km é: {}'.format(v/1000))
+print('O valor em hm é: {}'.format(v/100))
+print('O valor em dam é: {}'.format(v/10))
+print('O valor em m é: {}'.format(v*1))
+print('O valor em dm é: {}'.format(v*10))
+print('O valor em cm é: {}'.format(v*100))
+print('O valor em mm é: {}'.format(v*1000))
